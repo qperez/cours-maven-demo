@@ -1,0 +1,9 @@
+language: java
+
+jdk:
+  - oraclejdk11
+
+# cache the build tool's caches
+cache:
+  directories:
+  - $HOME/.m2
