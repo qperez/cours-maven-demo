@@ -5,9 +5,13 @@
 	<groupId>fr.imt.cours.perez</groupId>
 	<artifactId>demo-maven2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>OPT</name>
-	<description>OPT</description>
-	
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>demo-maven-module-client</module>
+		<module>demo-maven-module-server</module>
+	</modules>
+
 	<build>
 		<plugins>
 			<!-- Plugin for class compilation -->
@@ -93,4 +97,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
 </project>
