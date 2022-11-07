@@ -37,7 +37,7 @@ jobs:
         name: codecov-umbrella # optional
         fail_ci_if_error: true # optional (default = false)
         verbose: true # optional (default = false)
-        files: /home/runner/work/cours-maven-demo/cours-maven-demo/demo-maven-module-server/target/jacoco.xml # optional
+        files: /home/runner/work/cours-maven-demo/cours-maven-demo/demo-maven-module-server/target/site/jacoco/jacoco.xml # optional
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
